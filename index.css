@@ -4,10 +4,11 @@
     
 }
 body{
-    background-color: white;
+    background: greenyellow;
     margin-left: 2px;
     margin-right: 2px;
     overflow-x: hidden;
+    
 }
 .logo-1{
     width:50px;
@@ -23,9 +24,15 @@ backdrop-filter: blur(10.7px);
 }
 img{
     width: 70%;
+    border-radius: 50%;
 }
 @media all and (max-width:300px) {
     img{
         width: 100%;
     }
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
 }
